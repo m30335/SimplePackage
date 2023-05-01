@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     background-color: rgb( 224, 226, 219);
+    overflow: hidden;
 }
 
 .top{
@@ -254,12 +255,6 @@ body {
         justify-content: center;
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
-        .left {
-            flex-grow: .05;
-        }
-        .right {
-            flex-grow: .9;
-        }
     }
 }
 
