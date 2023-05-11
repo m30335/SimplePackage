@@ -1,12 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 150vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   background-color: rgb(224, 226, 219);
+  z-index: 1;
 }
 
 body {
@@ -27,6 +28,7 @@ body::-webkit-scrollbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   background-color: rgb(210, 212, 200);
   border-radius: 10px;
+  z-index: 9999;
 }
 .top .Logo {
   flex-grow: 0.8;
@@ -61,7 +63,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   height: 100%;
-  transform: translateY(11%);
+  z-index: 9998;
 }
 .parent .middle {
   display: flex;
@@ -71,6 +73,7 @@ body::-webkit-scrollbar {
   height: 76%;
 }
 .parent .middle li {
+  transform: translateY(30%);
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -305,74 +308,6 @@ body::-webkit-scrollbar {
   text-decoration: none;
 }
 
-.parent2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-.parent2 .explainationteam {
-  transform: translateY(10%);
-  width: 80%;
-  padding: 20px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: aqua;
-}
-.parent2 .explainationteam .inhaltexplaination {
-  width: 90%;
-  padding: 50px;
-  margin: 10px;
-  background-color: rgb(95, 116, 112);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-}
-.parent2 .explainationteam .gruender {
-  list-style-type: none;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.parent2 .explainationteam .gruender .main1 {
-  padding: 50px;
-  margin: 10px;
-  width: 90%;
-  background-color: rgb(95, 116, 112);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-}
-.parent2 .explainationteam .gruender .main2 {
-  padding: 50px;
-  margin: 10px;
-  width: 90%;
-  background-color: rgb(95, 116, 112);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-}
-.parent2 .explainationteam .gruender .main3 {
-  padding: 50px;
-  margin: 10px;
-  width: 90%;
-  background-color: rgb(95, 116, 112);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-}
-.parent2 .explainationteam .gruender .main4 {
-  padding: 50px;
-  margin: 10px;
-  width: 90%;
-  background-color: rgb(95, 116, 112);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-}
-
 .bottom {
   box-shadow: 2px -1px 4px rgba(0, 0, 0, 0.5);
   background-color: rgb(210, 212, 200);
@@ -381,6 +316,7 @@ body::-webkit-scrollbar {
   width: 100%;
   position: fixed;
   bottom: 0;
+  z-index: 9998;
 }
 .bottom .footer {
   display: flex;
@@ -407,4 +343,4 @@ a ::after {
 a :active {
   color: black;
   text-decoration: none;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=mainstyle.css.map */
