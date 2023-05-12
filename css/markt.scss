@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb( 224, 226, 219);
+}
+
+body {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.top{
+    position: fixed;
+    top: 0;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(210, 212, 200);
+    border-radius: 10px;
+    z-index: 9999;
+    .Logo {
+        flex-grow: .8;
+        display: flex;
+        justify-content: center;
+        .logo_name{
+            flex-grow: .5;
+            margin-top: 7px;
+            margin-left: 30px;
+            padding: 0;
+            height: 50px;
+            width: auto;
+        }
+    }
+    .navbar {
+        flex-grow: 1;
+        li{
+            padding: 5px;
+            list-style-type: none;
+            font-size: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-family: sans-serif ;
+            font-weight: 600;
+        }
+    }
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    .five-forces{
+        height: 50vw;
+        width: 50vw;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        position: relative;
+        flex-wrap: wrap;
+        transform: translateY(12%);
+        .force1 {
+            margin: 4px;
+            width: 32%;
+            height: 33%;
+        }
+        .force2 {
+            margin: 4px;
+            width: 32%;
+            height: 33%;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 4px rgba(160, 163, 154),
+            -2px -2px 4px rgb(240, 242, 235);
+            background-color: rgb(95, 116, 112);
+            border-radius: 20px;
+        }
+        .force3 {
+            margin: 4px;
+            width: 32%;
+            height: 33%;
+    
+        }
+        .force4 {
+            margin: 4px;
+            width: 32%;
+            height: 33%;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 4px rgba(160, 163, 154),
+            -2px -2px 4px rgb(240, 242, 235);
+            background-color: rgb(95, 116, 112);
+            border-radius: 20px;
+        }
+        .force5 {
+            margin: 4px;
+            width: 32%;
+            height: 33%;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 4px rgba(160, 163, 154),
+            -2px -2px 4px rgb(240, 242, 235);
+            background-color: rgb(95, 116, 112);
+            border-radius: 20px;
+        }
+        .force6 {
+            margin: 4px;
+            width: 32%;
+            height: 33%;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 4px rgba(160, 163, 154),
+            -2px -2px 4px rgb(240, 242, 235);
+            background-color: rgb(95, 116, 112);
+            border-radius: 20px;
+        }
+        .force7 {
+            margin: 4px;
+            width: 32%;
+            height: 33%;
+    
+        }
+        .force8 {
+            margin: 4px;
+            width: 32%;
+            height: 33%;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 4px rgba(160, 163, 154),
+            -2px -2px 4px rgb(240, 242, 235);
+            background-color: rgb(95, 116, 112);
+            border-radius: 20px;
+        }
+        .force9 {
+            margin: 4px;
+            width: 32%;
+            height: 33%;
+        }
+    }
+}  
+  
+.bottom{
+    box-shadow: 2px -1px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(210, 212, 200); 
+    padding: 10px;
+    height: 1.5vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    .footer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: sans-serif;
+    }   
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a ::before {
+    color: black;
+    text-decoration: none;
+}
+
+a ::after {
+    color: black;
+    text-decoration: none;
+}
+
+a :active {
+    color: black;
+    text-decoration: none;
+}

@@ -1,22 +1,177 @@
-.five-forces {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .force {
-    width: 20%;
-    padding: 20px;
-    border: 1px solid #ddd;
-    margin: 10px;
-  }
-  
-  .force h2 {
-    margin-top: 0;
-  }
-  
-  .force p:not(:first-child) {
-    margin-top: 10px;
-  }
-  
+body {
+  margin: 0;
+  padding: 0;
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgb(224, 226, 219);
+}
 
-/*# sourceMappingURL=markt.css.map */
+body {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgb(210, 212, 200);
+  border-radius: 10px;
+  z-index: 9999;
+}
+.top .Logo {
+  flex-grow: 0.8;
+  display: flex;
+  justify-content: center;
+}
+.top .Logo .logo_name {
+  flex-grow: 0.5;
+  margin-top: 7px;
+  margin-left: 30px;
+  padding: 0;
+  height: 50px;
+  width: auto;
+}
+.top .navbar {
+  flex-grow: 1;
+}
+.top .navbar li {
+  padding: 5px;
+  list-style-type: none;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+}
+.parent .five-forces {
+  height: 50vw;
+  width: 50vw;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  transform: translateY(12%);
+}
+.parent .five-forces .force1 {
+  margin: 4px;
+  width: 32%;
+  height: 33%;
+}
+.parent .five-forces .force2 {
+  margin: 4px;
+  width: 32%;
+  height: 33%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  background-color: rgb(95, 116, 112);
+  border-radius: 20px;
+}
+.parent .five-forces .force3 {
+  margin: 4px;
+  width: 32%;
+  height: 33%;
+}
+.parent .five-forces .force4 {
+  margin: 4px;
+  width: 32%;
+  height: 33%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  background-color: rgb(95, 116, 112);
+  border-radius: 20px;
+}
+.parent .five-forces .force5 {
+  margin: 4px;
+  width: 32%;
+  height: 33%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  background-color: rgb(95, 116, 112);
+  border-radius: 20px;
+}
+.parent .five-forces .force6 {
+  margin: 4px;
+  width: 32%;
+  height: 33%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  background-color: rgb(95, 116, 112);
+  border-radius: 20px;
+}
+.parent .five-forces .force7 {
+  margin: 4px;
+  width: 32%;
+  height: 33%;
+}
+.parent .five-forces .force8 {
+  margin: 4px;
+  width: 32%;
+  height: 33%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  background-color: rgb(95, 116, 112);
+  border-radius: 20px;
+}
+.parent .five-forces .force9 {
+  margin: 4px;
+  width: 32%;
+  height: 33%;
+}
+
+.bottom {
+  box-shadow: 2px -1px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgb(210, 212, 200);
+  padding: 10px;
+  height: 1.5vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}
+.bottom .footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a ::before {
+  color: black;
+  text-decoration: none;
+}
+
+a ::after {
+  color: black;
+  text-decoration: none;
+}
+
+a :active {
+  color: black;
+  text-decoration: none;
+}/*# sourceMappingURL=markt.css.map */

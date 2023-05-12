@@ -21,10 +21,10 @@ body::-webkit-scrollbar {
 .top {
   position: fixed;
   top: 0;
+  height: 8vh;
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 8vh;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   background-color: rgb(210, 212, 200);
   border-radius: 10px;
@@ -55,56 +55,6 @@ body::-webkit-scrollbar {
   justify-content: space-around;
   font-family: sans-serif;
   font-weight: 600;
-}
-
-.parent6 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 60px;
-}
-.parent6 .childcontainer6 {
-  width: 70%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-  justify-content: space-around;
-  transform: translateY(30%);
-}
-.parent6 .childcontainer6 .rechtsform {
-  width: 80%;
-  height: auto;
-  padding: 40px;
-  margin: 20px;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgb(240, 242, 235);
-  background-color: rgb(95, 116, 112);
-  border-radius: 10px;
-  font-family: sans-serif;
-  text-align: center;
-  font-size: 50px;
-}
-.parent6 .childcontainer6 .text {
-  transform: translateY(20%);
-  padding: 10px;
-  border: 5px solid rgb(95, 116, 112);
-  width: 75%;
-  font-family: sans-serif;
-  font-size: large;
-}
-
-.hide {
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.show {
-  opacity: 1;
-  transition: 0.5s;
 }
 
 .bottom {
@@ -142,4 +92,4 @@ a ::after {
 a :active {
   color: black;
   text-decoration: none;
-}/*# sourceMappingURL=rechtsform.css.map */
+}/*# sourceMappingURL=wettbewerb.css.map */

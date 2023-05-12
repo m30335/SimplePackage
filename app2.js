@@ -1,14 +1,12 @@
-const rechtsform = document.getElementById("rechtsform")
+let text = document.getElementById("text")
 
-window.addEventListener("scroll", myScrollFunc2)
-
-var myScrollFunc2 = function() {
+var myScrollFunc = function() {
     var y = window.scrollY;
-    if (y >= 150) {
-        navbar.className = "rechtsform show"
+    if (y >= 20) {
+        text.className = "text show"
     } else {
-        navbar.className = "rechtsform hide"
+        text.className = "text hide"
     }
 }
 
-window.addEventListener("scroll", myScrollFunc2)
+window.addEventListener("scroll", myScrollFunc)

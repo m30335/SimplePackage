@@ -1,6 +1,4 @@
 const navbar = document.getElementById("navbar")
-const grund = document.getElementById("grund")
-const rechtsform = document.getElementById("rechtsform")
 
 var myScrollFunc = function() {
     var y = window.scrollY;

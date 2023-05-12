@@ -23,6 +23,7 @@ body::-webkit-scrollbar {
   top: 0;
   display: flex;
   flex-direction: row;
+  height: 8vh;
   width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   background-color: rgb(210, 212, 200);
@@ -52,7 +53,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-family: "Courier New", Courier, monospace;
+  font-family: sans-serif;
   font-weight: 600;
 }
 
@@ -86,6 +87,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   align-items: start;
+  font-family: sans-serif;
 }
 .parent2 .childcontainer .main1 .picturemain11 {
   margin: 10px;
@@ -136,6 +138,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   align-items: start;
+  font-family: sans-serif;
 }
 .parent2 .childcontainer .main2 .picturemain22 {
   margin: 10px;
@@ -187,6 +190,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   align-items: start;
+  font-family: sans-serif;
 }
 .parent2 .childcontainer .main3 .picturemain33 {
   margin: 10px;
@@ -238,6 +242,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   align-items: start;
+  font-family: sans-serif;
 }
 .parent2 .childcontainer .main4 .firstpicturemain4 {
   margin: 10px;
@@ -293,7 +298,7 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: sans-serif;
 }
 
 a {

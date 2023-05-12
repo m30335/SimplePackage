@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb( 224, 226, 219);
+}
+
+body {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.top{
+    position: fixed;
+    top: 0;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(210, 212, 200);
+    border-radius: 10px;
+    z-index: 9999;
+    .Logo {
+        flex-grow: .8;
+        display: flex;
+        justify-content: center;
+        .logo_name{
+            flex-grow: .5;
+            margin-top: 7px;
+            margin-left: 30px;
+            padding: 0;
+            height: 50px;
+            width: auto;
+        }
+    }
+    .navbar {
+        flex-grow: 1;
+        li{
+            padding: 5px;
+            list-style-type: none;
+            font-size: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-family: sans-serif ;
+            font-weight: 600;
+        }
+    }
+}
+
+.parent4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    .childcontainer4 {
+        width: 70%;
+        height: auto;
+        display: flex;
+        padding: 50px;
+        justify-content: space-around;
+        transform: translateY(50%);
+        a {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            font-family: sans-serif;
+            .markt {
+                display: flex;
+                justify-content: center;
+                padding: 15%;
+                    margin: 10px;
+                    width: 20vw;
+                    height: 20vw;
+                    box-sizing: border-box;
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+                    -2px -2px 4px rgb(240, 242, 235);
+                    background-color: rgb(95, 116, 112);
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    font-size: large;
+                    align-items: center;
+                    font-family: sans-serif;
+                    color: rgb( 224, 226, 219);
+                    font-size: larger;
+            }
+            .wettbewerb {
+                display: flex;
+                justify-content: center;
+                padding: 15%;
+                margin: 10px;
+                width: 20vw;
+                height: 20vw;
+                box-sizing: border-box;
+                box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+                -2px -2px 4px rgb(240, 242, 235);
+                background-color: rgb(95, 116, 112);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                font-size: large;
+                align-items: center;
+                font-family: sans-serif;
+                color: rgb( 224, 226, 219);
+                font-size: larger;
+            }
+            .markt :hover{
+                transition: width 5s;
+                transition: height .5s;
+                width: 21vw;
+                height: 21vw;
+                display: flex;
+                justify-content: center;
+                font-size: large;
+                align-items: center;
+            }
+            .wettbewerb :hover{
+                transition: width 5s;
+                transition: height .5s;
+                width: 21vw;
+                height: 21vw;
+                display: flex;
+                justify-content: center;
+                font-size: large;
+                align-items: center;
+            }
+        }
+        a :hover {
+            transition: width 5s;
+            transition: height .5s;
+            width: 21vw;
+            height: 21vw;
+            background-color: rgb(154, 192, 185);
+            color: black;
+            font-weight: bold;
+        }
+    }
+}
+
+.bottom{
+    box-shadow: 2px -1px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(210, 212, 200); 
+    padding: 10px;
+    height: 1.5vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    .footer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: sans-serif;
+    }   
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a ::before {
+    color: black;
+    text-decoration: none;
+}
+
+a ::after {
+    color: black;
+    text-decoration: none;
+}
+
+a :active {
+    color: black;
+    text-decoration: none;
+}
