@@ -61,7 +61,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   height: 100%;
-  transform: translateY(11%);
+  transform: translateY(18.7%);
 }
 .parent .middle {
   display: flex;
@@ -69,6 +69,8 @@ body::-webkit-scrollbar {
   margin: 30px;
   width: 60%;
   height: 76%;
+  display: flex;
+  justify-content: center;
 }
 .parent .middle li {
   list-style-type: none;
@@ -82,34 +84,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-}
-.parent .middle li a .item1 {
-  padding: 10%;
-  margin: 10px;
-  width: 15vw;
-  height: 15vw;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
-  background-color: rgb(95, 116, 112);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  font-size: large;
-  align-items: center;
-}
-.parent .middle li a .item1 .content1 {
-  position: relative;
-  padding: 20px;
-}
-.parent .middle li a .item1 :hover {
-  transition: width 5s;
-  transition: height 0.5s;
-  width: 16vw;
-  height: 6vw;
-  display: flex;
-  justify-content: center;
-  font-size: large;
-  align-items: center;
+  color: rgb(210, 212, 200);
 }
 .parent .middle li a .item2 {
   padding: 10%;
@@ -117,7 +92,7 @@ body::-webkit-scrollbar {
   width: 15vw;
   height: 15vw;
   box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
   background-color: rgb(95, 116, 112);
   border-radius: 10px;
   display: flex;
@@ -145,7 +120,7 @@ body::-webkit-scrollbar {
   width: 15vw;
   height: 15vw;
   box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
   background-color: rgb(95, 116, 112);
   border-radius: 10px;
   display: flex;
@@ -173,7 +148,7 @@ body::-webkit-scrollbar {
   width: 15vw;
   height: 15vw;
   box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
   background-color: rgb(95, 116, 112);
   border-radius: 10px;
   display: flex;
@@ -186,90 +161,6 @@ body::-webkit-scrollbar {
   padding: 20px;
 }
 .parent .middle li a .item4 :hover {
-  transition: width 5s;
-  transition: height 0.5s;
-  width: 16vw;
-  height: 6vw;
-  display: flex;
-  justify-content: center;
-  font-size: large;
-  align-items: center;
-}
-.parent .middle li a .item5 {
-  padding: 10%;
-  margin: 10px;
-  width: 15vw;
-  height: 15vw;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  background-color: rgb(95, 116, 112);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  font-size: large;
-  align-items: center;
-}
-.parent .middle li a .item5 .content5 {
-  position: relative;
-  padding: 20px;
-}
-.parent .middle li a .item5 :hover {
-  transition: width 5s;
-  transition: height 0.5s;
-  width: 16vw;
-  height: 6vw;
-  display: flex;
-  justify-content: center;
-  font-size: large;
-  align-items: center;
-}
-.parent .middle li a .item6 {
-  padding: 10%;
-  margin: 10px;
-  width: 15vw;
-  height: 15vw;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  background-color: rgb(95, 116, 112);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  font-size: large;
-  align-items: center;
-}
-.parent .middle li a .item6 .content6 {
-  position: relative;
-  padding: 0px;
-}
-.parent .middle li a .item6 :hover {
-  transition: width 5s;
-  transition: height 0.5s;
-  width: 16vw;
-  height: 6vw;
-  display: flex;
-  justify-content: center;
-  font-size: large;
-  align-items: center;
-}
-.parent .middle li a .item7 {
-  padding: 10%;
-  margin: 10px;
-  height: 15vw;
-  width: 15vw;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  background-color: rgb(95, 116, 112);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  font-size: large;
-  align-items: center;
-}
-.parent .middle li a .item7 .content7 {
-  position: relative;
-  padding: 20px;
-}
-.parent .middle li a .item7 :hover {
   transition: width 5s;
   transition: height 0.5s;
   width: 16vw;
@@ -339,4 +230,4 @@ a ::after {
 a :active {
   color: black;
   text-decoration: none;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style2.css.map */

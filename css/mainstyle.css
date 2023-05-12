@@ -25,6 +25,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 8%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   background-color: rgb(210, 212, 200);
   border-radius: 10px;
@@ -53,8 +54,21 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-family: "Courier New", Courier, monospace;
+  font-family: sans-serif;
   font-weight: 600;
+}
+
+.parent3 {
+  padding: 100px;
+  margin: 100px;
+  background-color: rgb(210, 212, 200);
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgb(153, 155, 145), -2px -2px 4px rgb(169, 172, 162);
+  border-radius: 20px;
+}
+.parent3 .summary {
+  font-family: sans-serif;
+  font: bold;
 }
 
 .parent {
@@ -73,18 +87,18 @@ body::-webkit-scrollbar {
   height: 76%;
 }
 .parent .middle li {
-  transform: translateY(30%);
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 30px;
 }
 .parent .middle li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: sans-serif;
 }
 .parent .middle li a .item1 {
   padding: 10%;
@@ -94,7 +108,7 @@ body::-webkit-scrollbar {
   box-sizing: border-box;
   box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
   background-color: rgb(95, 116, 112);
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   font-size: large;
@@ -120,9 +134,9 @@ body::-webkit-scrollbar {
   width: 15vw;
   height: 15vw;
   box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
   background-color: rgb(95, 116, 112);
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   font-size: large;
@@ -148,9 +162,9 @@ body::-webkit-scrollbar {
   width: 15vw;
   height: 15vw;
   box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
   background-color: rgb(95, 116, 112);
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   font-size: large;
@@ -176,9 +190,9 @@ body::-webkit-scrollbar {
   width: 15vw;
   height: 15vw;
   box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
   background-color: rgb(95, 116, 112);
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   font-size: large;
@@ -204,9 +218,9 @@ body::-webkit-scrollbar {
   width: 15vw;
   height: 15vw;
   box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
   background-color: rgb(95, 116, 112);
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   font-size: large;
@@ -232,9 +246,9 @@ body::-webkit-scrollbar {
   width: 15vw;
   height: 15vw;
   box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
   background-color: rgb(95, 116, 112);
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   font-size: large;
@@ -260,9 +274,9 @@ body::-webkit-scrollbar {
   height: 15vw;
   width: 15vw;
   box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
   background-color: rgb(95, 116, 112);
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   font-size: large;
@@ -307,6 +321,14 @@ body::-webkit-scrollbar {
   color: black;
   text-decoration: none;
 }
+.parent .middle .hide {
+  opacity: 0;
+  transition: 0.5s;
+}
+.parent .middle .show {
+  opacity: 1;
+  transition: 0.5s;
+}
 
 .bottom {
   box-shadow: 2px -1px 4px rgba(0, 0, 0, 0.5);
@@ -322,7 +344,7 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: sans-serif;
 }
 
 a {

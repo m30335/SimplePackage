@@ -1,0 +1,22 @@
+.five-forces {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .force {
+    width: 20%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+  }
+  
+  .force h2 {
+    margin-top: 0;
+  }
+  
+  .force p:not(:first-child) {
+    margin-top: 10px;
+  }
+  
+
+/*# sourceMappingURL=markt.css.map */
