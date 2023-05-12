@@ -29,6 +29,7 @@ body::-webkit-scrollbar {
   background-color: rgb(210, 212, 200);
   border-radius: 10px;
   height: 8vh;
+  z-index: 9999;
 }
 .top .Logo {
   flex-grow: 0.8;
@@ -55,6 +56,330 @@ body::-webkit-scrollbar {
   justify-content: space-around;
   font-family: sans-serif;
   font-weight: 600;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.parent .childcontainer {
+  height: auto;
+  width: 80vw;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  transform: translateY(10%);
+}
+.parent .childcontainer .block1 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(95, 116, 112);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+  color: rgb(224, 226, 219);
+}
+.parent .childcontainer .block2 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block3 {
+  width: 16vw;
+  height: 25vh;
+  font-size: 60px;
+  font-family: sans-serif;
+  transform: translateX(20%);
+}
+.parent .childcontainer .block4 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block5 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block6 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block7 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(210, 212, 200);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+}
+.parent .childcontainer .block8 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block9 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block10 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block11 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(210, 212, 200);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+}
+.parent .childcontainer .block12 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block13 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block14 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(95, 116, 112);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+  color: rgb(224, 226, 219);
+}
+.parent .childcontainer .block15 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block16 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block17 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block18 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block19 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block20 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(210, 212, 200);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+}
+.parent .childcontainer .block21 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(95, 116, 112);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+  color: rgb(224, 226, 219);
+}
+.parent .childcontainer .block22 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block23 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block24 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(210, 212, 200);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+}
+.parent .childcontainer .block25 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block26 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block27 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(210, 212, 200);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+}
+.parent .childcontainer .block28 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block29 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block30 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block31 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(210, 212, 200);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+}
+.parent .childcontainer .block32 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block33 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block34 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(95, 116, 112);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+  color: rgb(224, 226, 219);
+}
+.parent .childcontainer .block35 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block36 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(95, 116, 112);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+  color: rgb(224, 226, 219);
+}
+.parent .childcontainer .block37 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block38 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(210, 212, 200);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+}
+.parent .childcontainer .block39 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block40 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(210, 212, 200);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+}
+.parent .childcontainer .block41 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block42 {
+  width: 16vw;
+  height: 25vh;
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(210, 212, 200);
+  box-shadow: 2px 2px 4px rgb(160, 163, 154), -2px -2px 4px rgb(240, 242, 235);
+  border-radius: 40px;
+}
+.parent .childcontainer .block43 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block44 {
+  width: 16vw;
+  height: 25vh;
+}
+.parent .childcontainer .block45 {
+  width: 16vw;
+  height: 25vh;
 }
 
 .bottom {

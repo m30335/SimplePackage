@@ -86,14 +86,14 @@ body::-webkit-scrollbar {
                     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
                     -2px -2px 4px rgb(240, 242, 235);
                     background-color: rgb(95, 116, 112);
-                    border-radius: 10px;
+                    border-radius: 40px;
                     display: flex;
                     justify-content: center;
                     font-size: large;
                     align-items: center;
                     font-family: sans-serif;
                     color: rgb( 224, 226, 219);
-                    font-size: larger;
+                    font-size: 30px;
             }
             .wettbewerb {
                 display: flex;
@@ -106,14 +106,14 @@ body::-webkit-scrollbar {
                 box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
                 -2px -2px 4px rgb(240, 242, 235);
                 background-color: rgb(95, 116, 112);
-                border-radius: 10px;
+                border-radius: 40px;
                 display: flex;
                 justify-content: center;
                 font-size: large;
                 align-items: center;
                 font-family: sans-serif;
                 color: rgb( 224, 226, 219);
-                font-size: larger;
+                font-size: 30px;
             }
             .markt :hover{
                 transition: width 5s;

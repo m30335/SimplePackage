@@ -59,16 +59,18 @@ body::-webkit-scrollbar {
 
 
 .parent3 {
-    padding: 100px;
+    padding: 45px;
     margin: 100px;
     background-color: rgb(210, 212, 200);
     box-sizing: border-box;
     box-shadow: 2px 2px 4px rgb(153, 155, 145),
     -2px -2px 4px rgb(169, 172, 162);
     border-radius: 20px;
+    transform: translateY(10%);
     .summary {
         font-family: sans-serif;
         font: bold;
+        font-size: 23px;
     }
 }
 

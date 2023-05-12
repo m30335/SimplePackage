@@ -64,11 +64,12 @@ body::-webkit-scrollbar {
   height: 110vh;
   transform: translateY(10%);
   z-index: 999;
-  padding-bottom: 60px;
+  padding-bottom: 200px;
+  margin-bottom: 200px;
 }
 .parent2 .childcontainer {
   width: 70%;
-  height: auto;
+  height: 1210px;
   background-color: rgb(210, 212, 200);
   border-radius: 20px;
   box-sizing: border-box;
@@ -88,6 +89,7 @@ body::-webkit-scrollbar {
   flex-direction: column;
   align-items: start;
   font-family: sans-serif;
+  color: rgb(224, 226, 219);
 }
 .parent2 .childcontainer .main1 .picturemain11 {
   margin: 10px;
@@ -139,6 +141,7 @@ body::-webkit-scrollbar {
   flex-direction: column;
   align-items: start;
   font-family: sans-serif;
+  color: rgb(224, 226, 219);
 }
 .parent2 .childcontainer .main2 .picturemain22 {
   margin: 10px;
@@ -191,6 +194,7 @@ body::-webkit-scrollbar {
   flex-direction: column;
   align-items: start;
   font-family: sans-serif;
+  color: rgb(224, 226, 219);
 }
 .parent2 .childcontainer .main3 .picturemain33 {
   margin: 10px;
@@ -243,6 +247,7 @@ body::-webkit-scrollbar {
   flex-direction: column;
   align-items: start;
   font-family: sans-serif;
+  color: rgb(224, 226, 219);
 }
 .parent2 .childcontainer .main4 .firstpicturemain4 {
   margin: 10px;
