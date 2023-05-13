@@ -93,6 +93,7 @@ body::-webkit-scrollbar {
 }
 .parent2 .childcontainer .main1 .picturemain11 {
   margin: 10px;
+  border-radius: 20px;
 }
 .parent2 .childcontainer .main1 .namemain1 {
   padding: 10px;
@@ -145,6 +146,7 @@ body::-webkit-scrollbar {
 }
 .parent2 .childcontainer .main2 .picturemain22 {
   margin: 10px;
+  border-radius: 20px;
 }
 .parent2 .childcontainer .main2 .namemain2 {
   padding: 10px;
@@ -198,6 +200,7 @@ body::-webkit-scrollbar {
 }
 .parent2 .childcontainer .main3 .picturemain33 {
   margin: 10px;
+  border-radius: 20px;
 }
 .parent2 .childcontainer .main3 .namemain3 {
   padding: 10px;
@@ -251,6 +254,7 @@ body::-webkit-scrollbar {
 }
 .parent2 .childcontainer .main4 .firstpicturemain4 {
   margin: 10px;
+  border-radius: 20px;
 }
 .parent2 .childcontainer .main4 .namemain4 {
   padding: 10px;
